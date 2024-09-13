@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=BootBasic/C:\/Users\/ggg\/.m2\/repository\/org\/springframework\/spring-websocket\/6.1.10\/spring-websocket-6.1.10.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-websocket=/=/maven.version=/6.1.10=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.web.socket.handler(TextWebSocketHandler.class[TextWebSocketHandler" modifiers="33" timestamp="1721186975510"/>
+    <typeInfo handle="=BootBasic/C:\/Users\/ggg\/.m2\/repository\/org\/springframework\/spring-websocket\/6.1.10\/spring-websocket-6.1.10.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-websocket=/=/maven.version=/6.1.10=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.web.socket.config.annotation(WebSocketConfigurer.class[WebSocketConfigurer" modifiers="1537" timestamp="1721186975510"/>
+</typeInfoHistroy>

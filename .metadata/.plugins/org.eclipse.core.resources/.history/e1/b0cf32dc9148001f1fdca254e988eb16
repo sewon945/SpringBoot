@@ -1,0 +1,23 @@
+package bigdata.mapreduce;
+
+// WordCount에 있는 import 싹 다 복사 붙여넣기 -> ctrl + shift + o 해서 import 안쓰는 거(노란색줄) 지워주기
+import java.io.IOException;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+//WordCount에서 만든 IntSumReducer 가져와서 static 지우기
+public class IntSumReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
+	private IntWritable result = new IntWritable();
+
+	public void reduce(Text key, Iterable<IntWritable> values, Context context)
+			throws IOException, InterruptedException {
+		int sum = 0;
+		for (IntWritable val : values) {
+			sum += val.get();
+		}
+		result.set(sum);
+		context.write(key, result);
+	}
+}

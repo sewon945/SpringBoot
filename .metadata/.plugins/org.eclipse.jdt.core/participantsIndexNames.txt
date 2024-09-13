@@ -1,0 +1,5 @@
+INDEX VERSION 1.134
+C:\Users\ggg\Desktop\SpringBoot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2011865729.index
+\BootBasic\src\main\java
+C:\Users\ggg\Desktop\SpringBoot\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2366934837.index
+\SecurtiyBasic\src\main\java
